@@ -20,7 +20,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     
     # Handle CORS preflight (OPTIONS) requests - no authentication required
     if req.method == 'OPTIONS':
-        return func.HttpResponse(
+        
             '',
             status_code=204,
             headers={
