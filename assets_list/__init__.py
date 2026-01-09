@@ -27,7 +27,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
                 "Access-Control-Allow-Origin": "https://mystorage867.z33.web.core.windows.net",
                 "Access-Control-Allow-Methods": "GET, OPTIONS",
                 "Access-Control-Allow-Headers": "Content-Type, x-api-key",
-                "Access-Control-Max-Age": "3600"
+                
             }
         )
     
