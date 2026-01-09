@@ -8,7 +8,7 @@ from shared.sql_client import execute
 from shared.storage import get_blob_service_client, get_container_name
 
 
-logger = get_logger(__name__)
+
 
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
